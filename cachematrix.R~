@@ -1,10 +1,4 @@
 
-## 4 things to do:
-## set the value of matrix
-## get the value of matrix
-## set the inverse value of matrix
-## get the inverse value of matrix
-
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
 	set <- function(y) {	## set the value of matrix
@@ -19,10 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	getinverse=getinverse)
 }
 
-## get the inverse value of matrix
-## if inv already has a value, return this cached value and finish function
-## otherwise, get matrix and solve it
-## put this as the inverse value, and return it
+
 ## Condition: the metrix should be convertible
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
